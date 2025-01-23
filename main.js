@@ -44,20 +44,13 @@ function printItem(text){
     let editTask = createBtn('btn', 'Изменить')
     let removeTask = createBtn('btn', 'Удалить')
 
-    endTask.onclick = function(){
-        li.classList.add('endTask')
-        endTask.remove()
-        editTask.remove()
-        removeTask.classList.add('endTaskBtn')
-    }
+
 
     editTask.onclick = function(){
         itemTitle.textContent = `${prompt("Какя задача теперь ?")}`
     }
 
-    removeTask.onclick = function(){
-        li.remove()
-    }
+
 
     li.append(itemTitle)
     li.append(optins)
