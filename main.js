@@ -1,3 +1,6 @@
+alert("Привет пользователь это приложение предназначено для создания расписания твоего дня")
+
+
 function createDiv (className) {  
     let container = document.createElement('div')
     container.classList.add(className)
