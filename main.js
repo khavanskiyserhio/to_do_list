@@ -1,3 +1,6 @@
+alert("Доброый день, время составить план на день")
+
+
 function createDiv (className) {  
     let container = document.createElement('div')
     container.classList.add(className)
