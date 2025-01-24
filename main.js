@@ -56,7 +56,9 @@ function printItem(text){
         itemTitle.textContent = `${prompt("Какя задача теперь ?")}`
     }
 
-
+    removeTask.onclick = function(){
+        li.remove()
+    }
 
     li.append(itemTitle)
     li.append(optins)
